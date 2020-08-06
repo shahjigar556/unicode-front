@@ -1,0 +1,49 @@
+nav{
+    background-color:#E8E8E8;
+    color:yellow;
+}
+.quote{
+    padding-top:30vw;
+    color:red;
+    font-weight: bold;
+    font-size: 30px;
+    width:fit-content;
+    height: fit-content;
+}
+.jumbotron{
+    background-color: white;
+}
+#motto{
+    background-image: url('../img/laptop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:60vw;
+    width: 100%;
+    border:1px solid black;
+}
+.nav-item a:hover{
+    background-color: white;
+    color:black;
+}
+.nav-item a{
+    color:black;
+    text-align: center;
+}
+#about{
+    background-color:cornsilk
+}
+#about h2{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#about p{
+    padding-left:20px;
+    padding-right: 20px;
+    text-align:center;
+}
