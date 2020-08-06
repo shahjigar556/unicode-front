@@ -1,18 +1,37 @@
-body{
-    background-color: #ADD8E6;
+nav{
+    background-color:#E8E8E8;
+    color:yellow;
+}
+.quote{
+    padding-top:100px;
+    color:yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+.jumbotron{
+    background-color: white;
+}
+#motto{
+    background-image: url('../img/laptop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width: 100%;
+    border:1px solid black;
 }
 .nav-item a:hover{
     background-color: white;
     color:black;
 }
 .nav-item a{
-    color:black;
+    color:black; 
+    text-align: center;
 }
 #about{
     background-color:cornsilk
 }
 #about h2{
-    margin-top: 25px;
     font-weight: bold;
     padding-left: 20px;
 }
@@ -21,4 +40,8 @@ body{
     width: 200px;
     border-radius: 100px;
 }
-
+#about p{
+    padding-left:20px;
+    padding-right: 20px;
+    text-align:center;
+}
