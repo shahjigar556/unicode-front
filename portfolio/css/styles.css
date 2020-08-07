@@ -1,27 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 nav{
     background-color:#E8E8E8;
     color:yellow;
 }
-.quote{
-    padding-top:30vw;
-    color:red;
-    font-weight: bold;
-    font-size: 30px;
-    width:fit-content;
-    height: fit-content;
+#hi h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size:24px;
 }
-.jumbotron{
-    background-color: white;
+.fa-laptop-code{
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-#motto{
-    background-image: url('../img/laptop.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height:60vw;
-    width: 100%;
-    border:1px solid black;
-}
+
 .nav-item a:hover{
     background-color: white;
     color:black;
