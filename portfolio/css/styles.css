@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
 nav{
     background-color:#E8E8E8;
     color:yellow;
@@ -8,6 +10,13 @@ nav{
     text-align: center;
     text-transform: capitalize;
     font-size:24px;
+}
+.quote h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size:24px;
+    
 }
 .fa-laptop-code{
     padding-left: 45%;
@@ -39,4 +48,32 @@ nav{
     padding-left:20px;
     padding-right: 20px;
     text-align:center;
+    font-family: 'Sriracha', cursive;
+}
+#academics{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F6DDCC;
+}
+#academics .aheading{
+    color:black;
+    background-color: #F6DDCC; 
+    
+}
+.result{
+    padding:2px;
+}
+.marks{
+    color:red;
+    font-size: 24px;
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+}
+.fa-trophy{
+  color:black;
+}
+
+.result:hover{
+   background-color: white;
 }

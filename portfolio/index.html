@@ -8,6 +8,7 @@
   <link rel="icon" href="img\favicon_io\favicon-16x16.png" type="">
   <script src="https://kit.fontawesome.com/8167bbf276.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <title>Jigar Shah Portfolio</title>
 </head>
 
@@ -26,7 +27,7 @@
             <a class="nav-link" href="#about"><span><i class="fas fa-address-card"></i></span> About Me <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><span><i class="fas fa-graduation-cap"></i></span>Academics</a>
+            <a class="nav-link" href="#academics"><span><i class="fas fa-graduation-cap"></i></span>Academics</a>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link"><span><i class="fas fa-project-diagram"></i></span>Projects</a>
@@ -43,7 +44,7 @@
   <div id="container">
     <!--Start of main content-->
 
- <div id="hi">
+ <div class="quote" id="hi">
     <span><i class="fas fa-laptop-code fa-5x "></i></span>
      <h3>"Experience is the name everyone gives to their mistakes"</h3>
  </div>
@@ -58,6 +59,26 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt quidem quis saepe aspernatur odio. Ratione consectetur ducimus enim, tenetur est omnis sed. Perferendis inventore nulla praesentium sed, sit natus?
       </p>
     </div>
+  </div><!--End of about-->
+  <div class="quote">
+    <center>
+    <span><i class="far fa-lightbulb fa-3x"></i></span>
+    </center>
+    <h3>"A Liitle Progress each day adds up to big result"</h3>
+  </div>
+  <div id="academics"><!--Academics-->
+     <h2 class="aheading"><span><i class="fas fa-graduation-cap"></i></span>Academics</h2>
+     <!--<div class="result">
+       <p class="text-center"><span><i class="fas fa-trophy"></i></span><span class="marks">SSC:94%</span></p>
+     </div>
+     <div class="result">
+       <p class="text-center"><i class="fas fa-trophy"></i><span class="marks">HSC:91.2%</span></p>
+     </div>
+     <div class="result">
+       <p class="text-center"><i class="fas fa-trophy"></i><span class="marks">1ST YEAR:9.975 SGPA</span></p>
+     </div>-->
+     <br>
+     <canvas id="myChart" width="200" height="200"></canvas>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
