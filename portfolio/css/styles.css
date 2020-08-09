@@ -32,6 +32,7 @@ nav{
     color:black;
     text-align: center;
 }
+/*About section*/
 #about{
     background-color:cornsilk
 }
@@ -56,6 +57,7 @@ nav{
     background-size: cover;
     background-color: #F6DDCC;
 }
+/*academics Section*/
 #academics .aheading{
     color:black;
     background-color: #F6DDCC; 
@@ -76,4 +78,17 @@ nav{
 
 .result:hover{
    background-color: white;
+}
+/*Project section*/
+#project{
+    margin-top:20px;
+    background-color: rgb(233, 247, 239);
+}
+#project p{
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+#project .btn:hover{
+    border:1px solid black;
+    background-color: lightskyblue;
 }
