@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+form{
+    margin-top: 15px;
+}
+.form-group input{
+    width:50%;
+}
+.form-group textarea{
+    width: 50%;
+}
+.thanks{
+    text-transform: capitalize;
+    font-family: 'Sriracha', cursive;
+}
