@@ -14,7 +14,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#"><img src="img\jigar-logo.png" alt="Jigar Shah"></a>
       <h1 id="name" class="d-none d-lg-block">Jigar Shah</h1>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,10 @@
             <a class="nav-link" href="#academics"><span><i class="fas fa-graduation-cap"></i></span>Academics</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link"><span><i class="fas fa-project-diagram"></i></span>Projects</a>
+            <a href="#project" class="nav-link"><span><i class="fas fa-project-diagram"></i></span>Projects</a>
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link" target="_blank"><span><i class="fas fa-phone"></i></span>Contact</a>
+            <a href="#contact" class="nav-link" target="_blank"><span><i class="fas fa-phone"></i></span>Contact</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
     <h3>"A Liitle Progress each day adds up to big result"</h3>
   </div>
   <div id="academics"><!--Academics-->
-     <h2 class="aheading"><span><i class="fas fa-graduation-cap"></i></span>Academics</h2>
+     <h2 class="aheading heading"><span><i class="fas fa-graduation-cap"></i></span>Academics</h2>
      <!--<div class="result">
        <p class="text-center"><span><i class="fas fa-trophy"></i></span><span class="marks">SSC:94%</span></p>
      </div>
@@ -78,11 +78,11 @@
        <p class="text-center"><i class="fas fa-trophy"></i><span class="marks">1ST YEAR:9.975 SGPA</span></p>
      </div>-->
      <br>
-     <canvas id="myChart" width="100" height="50"></canvas><!--Added graph-->
+     <canvas id="myChart" width="10" height="3"></canvas><!--Added graph-->
   </div>
   <div id="project">
     
-      <h2><span><i class="fas fa-project-diagram fa-1.5x"></i></span>Projects</h2>
+      <h2 class="heading"><span><i class="fas fa-project-diagram fa-1.5x"></i></span>Projects</h2>
       <p class="text-center">Applied the knowledge of HTML/CSS/Bootstarp and Build a Static Restaurant Website</p>
       <center>
       <a href="https://shahjigar556.github.io/Restaurant/" target="_blank" class=" btn btn-success btn-lg active" role="button" aria-pressed="true">View</a>
@@ -90,9 +90,24 @@
       <p class="text-center">Made A Real Time Web Application That Tracks no of covid-19 cases in world and countries</p>
       <center>
         <a href="https://github.com/shahjigar556/Unicode" target="_blank" class=" btn btn-success btn-lg active" role="button" aria-pressed="true">View</a>
-
       </center>  
   </div>
+  <div id="contact">
+  <h2 class="heading"><span><span><i class="fas fa-phone"></i></span>Contact</h2>
+  <center>
+  <ul class="list-group list-group-flush blue">
+    <li class="list-group-item blue"><a href="https://www.linkedin.com/in/jigar-shah-3a64691b4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByxEZpUeTRnWxaPHkwSnaTA%3D%3D">
+      <span><i class="fab fa-linkedin fa-3x"></i></span><span class="social">LinkedIn</span></a></li>
+    <li class="list-group-item blue"><a href="https://github.com/shahjigar556"><span><i class="fab fa-github fa-3x"></i></span><span class="social">Github</span></a></li>
+    <li class="list-group-item blue"><a href="https://www.google.com/gmail/"><span><i class="far fa-envelope fa-3x"></i></span><span class="social">Mail Us</span></a></li>
+  </ul>
+  <a href="contact.html" target="_blank" class="btn btn-primary  active" role="button" aria-pressed="true">Write Us!</a>
+  </center>
+  </div>
+  <footer class="text-center">
+    &copy; 2020
+    Made By <b>Jigar Shah</b>
+  </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
