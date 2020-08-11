@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 form{
@@ -13,20 +13,4 @@ form{
 .thanks{
     text-transform: capitalize;
     font-family: 'Sriracha', cursive;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-form{
-    margin-top: 15px;
-}
-.form-group input{
-    width:50%;
-}
-.form-group textarea{
-    width: 50%;
-}
-.thanks{
-    text-transform: capitalize;
-    font-family: 'Sriracha', cursive;
->>>>>>> 4e0e54af2aa8899aa5fc1eec2669134ca1be838a
 }
