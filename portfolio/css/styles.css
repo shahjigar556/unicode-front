@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
@@ -139,4 +140,147 @@ nav h1{
 footer{
     margin-top:10px;
     margin-bottom:10px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+.heading{
+    font-family: 'Lemonada', cursive;
+}
+nav{
+    /*background-color:#E8E8E8;*/
+    color:greenyellow;
+    font-weight: bold;
+    background-image: url('../img/bimg.jfif');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Julius Sans One', sans-serif;
+}
+nav h1{
+    font-size: 66px;
+    font-weight: bold;
+    color:#2D3B3B;
+
+}
+#hi h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size:24px;
+}
+.quote h3{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-transform: capitalize;
+    font-size:24px;
+    
+}
+.fa-laptop-code{
+    padding-left: 45%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item a:hover{
+    background-color: white;
+    color:black;
+}
+.nav-item a{
+    color:black;
+    text-align: center;
+}
+/*About section*/
+#about{
+    background-color:cornsilk
+}
+#about h2{
+    font-weight: bold;
+    padding-left: 20px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+#about p{
+    padding-left:20px;
+    padding-right: 20px;
+    text-align:center;
+    font-family: 'Sriracha', cursive;
+}
+#academics{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #F6DDCC;
+}
+/*academics Section*/
+#academics .aheading{
+    color:black;
+    background-color: #F6DDCC; 
+    
+}
+.result{
+    padding:2px;
+}
+.marks{
+    color:red;
+    font-size: 24px;
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+}
+.fa-trophy{
+  color:black;
+}
+
+.result:hover{
+   background-color: white;
+}
+/*Project section*/
+#project{
+    margin-top:20px;
+    background-color: rgb(233, 247, 239);
+}
+#project p{
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+#project .btn{
+    margig-bottom:10px;
+}
+#project .btn:hover{
+    border:1px solid black;
+    background-color: lightskyblue;
+}
+/*contact page*/
+#contact{
+    margin-top: 20px;
+    background-color:#E3F6FE;
+}
+.blue{
+    background-color:#E3F6FE ;
+}
+#contact li{
+    list-style: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.social{
+    color:black;
+}
+#contact a:hover{
+    text-decoration: none;
+}
+#contact span{
+    margin-right: 10px;
+}
+footer{
+    margin-top:10px;
+    margin-bottom:10px;
+>>>>>>> 4e0e54af2aa8899aa5fc1eec2669134ca1be838a
 }
