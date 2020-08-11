@@ -43,30 +43,49 @@
             <img src="img/customer.png" alt="customer service" >
             <h2 class="thanks">Thanks For contacting</h2>
         </center>
-        <form>
+        <form action="submit.html">
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="" required>
             </div>
+            <div id="mail" class="verify">
+              <p class="fail"><span><i class="fas fa-info blue"></i></span>Enter Valid Email-Id</p>
+              <p class="success"><span><img src="img/icon-30.png" alt="tick"/></span>Valid</p>
+            </div>
+
             <div class="form-group">
                 <label for="call">Contact Number</label>
-                <input type="tel" name="tel" id="call" class="form-control" value=" ">
+                <input type="tel" name="tel" id="call" class="form-control" value="">
+            </div>
+            <div id="phone" class="verify">
+              <p class="fail"><span><i class="fas fa-info blue"></i></span>Enter Valid Contact Number</p>
+              <p class="success"><span><img src="img/icon-30.png" alt="tick"/></span>Valid</p>
             </div>
             <div class="form-group">
                 <label for="firstName">First Name</label>
-                <input type="text" name="name" id="firstName" value=" " class="form-control">
+                <input type="text" name="name" id="firstName" value="" class="form-control">
             </div>
             <div class="form-group">
                 <label for="lastName">Last Name</label>
-                <input type="text" name="name" id="lastName" value=" " class="form-control">
+                <input type="text" name="name" id="lastName" value="" class="form-control">
             </div>    
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Suggestions</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>      
+            </div>
+            <p class="notifcations">Would you Allow To send Notifications</p>
+            <div>
+              <input type="radio" class="allow" id="yes" name="ans" value="yes">
+              <label for="male">YES</label><br>
+              <input type="radio"class="allow" id="no" name="ans" value="no">
+              <label for="female">NO</label><br>
+              <p class="yes-show">Thanks for opting Yes </p>
+              <p class="no-show">Ohh You Have not turned off notifcations</p>
+            </div>
+            <a href="#" class="btn btn-success confirm" role="button" aria-disabled="true">Confirm</a> 
             <button type="submit">Submit</button>
         </form>
-        
+       
     </div>
 
 

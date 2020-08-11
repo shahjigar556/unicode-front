@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
 form{
     margin-top: 15px;
 }
@@ -13,4 +13,15 @@ form{
 .thanks{
     text-transform: capitalize;
     font-family: 'Sriracha', cursive;
+}
+.blue{
+    color:lightblue;
+    margin-right: 10px;
+}
+.verify p{
+    font-family: 'Lemonada', cursive;
+}
+.btn{
+    margin-top:10px;
+    margin-bottom:10px;
 }
