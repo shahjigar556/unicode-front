@@ -84,11 +84,14 @@ function validateEmail(email) {
           alert(`Are you sure ${firstName} ${lastName} the information provided is correct`);
       }
       else{
-         if(checkemail===false){
+         if(checkemail===false&&checkmobile==true){
              alert("Enter Valid Email address");
          }      
-         else if(checkmobile===false){
+         else if(checkmobile===false&&checkemail===true){
              alert('Enter valid phone number');
+         }
+         else if(checkmobile===false&&checkemail===false){
+             alert('Enter Valid Phone Number and Valid Email Address');
          }
       }
   })
