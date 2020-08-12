@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="icon" href="img/icons8-coronavirus-48.png" type="">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script><!--charts-->
+    <title>COVIDMETER</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <nav>
+          <h1 id="header">
+              <img src="img/icons8-coronavirus-96.png" alt="covid"/>
+              COVIDMETER
+          </h1>
+          <marquee behavior="alternate" direction="left"><h2 class="text-center">Headlines</h2></marquee>
+        </nav>
+   </div>
+<div class="container">
+     <div class="row">
+     <div class="col-md-3 text-center">    
+    <button type="button" class="btn btn-primary"><a href="#myChart">BAR-Graph</a></button>
+    </div>
+    <div class="col-md-3 text-center">
+    <button type="button" class="btn btn-primary"><a href="#pieChart">Recovery-Chart</a></button>
+    </div>
+    <div class="col-md-3 text-center">
+    <button type="button" class="btn btn-primary" id="data">DATA</button>
+    </div>
+    <div class="col-md-3">
+        <button type="button" class="btn btn-primary" id="world-btn"><a href="#world">World data</a></button> 
+    </div>
+    <div class="col-md-4">
+        <button type="button" class="btn btn-primary" id="hide">Hide</button>
+    </div>
+</div>
+    <!--Tables--> 
+    <table class="table table-dark" id="table">
+     <thead id="heading"></thead>
+     <tbody id="body"></tbody>
+     <tfoot id="world"></tfoot>
+    </table>    
+    <h2 class="text-center graphhead">Top 3 countries(Worst Affected)</h2>  
+    <canvas id="myChart" width="auto" height="auto"></canvas>
+    <h2 class="text-center graphhead">Recovery Rates of Top-5 worst Affected Nations</h2>
+    <canvas id="pieChart" width="auto" height="auto"></canvas>
+    <center>
+    <button type="button" class="btn btn-success"><a href="#header">Back TO Top</a></button>
+     </center>
+     <footer><!--Added Footer-->
+         <h4>Made By Jigar Shah</h4>
+         <h5>&copy;2020</h5>
+         <p>Always Wear a Mask When you Step out </p>
+         <img src="img/icons8-protection-mask-64.png" alt="mask">
+     </footer>
+    
+    <script src="jquery-3.5.1.min.js"></script><!--Added Jquery-->
+    <script src="script.js"></script>
+</body>
+</html>

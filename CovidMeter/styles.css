@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+nav{
+    background-image: url('img/nav.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav h1{
+   /*margin-top: 15px;
+    margin-bottom: 50px;*/
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
+}
+nav h2{
+    font-weight: bold;
+    color:yellowgreen;
+}
+nav img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+
+.btn a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color:black;
+    text-decoration:none;
+}
+#body{
+    overflow:auto;
+    height:100px;
+}
+#header{
+    text-align: center;
+    font-weight: bold;
+
+}
+#world{
+    background-color: yellow;
+    color:black;
+}
+footer{
+    background-color: gray;
+    text-align:center;
+}
+body{
+    background-image: url('img/bimg1.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.graphhead{
+    font-family: 'Satisfy', cursive;
+}
+footer p{
+    font-weight: bold;
+    font-size:20px;
+    color:greenyellow;
+}
+
+.warning{
+    color:red;
+    font-weight: bold;
+    font-size:10px;
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+}
